@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Instagram</string>
+    <string name="username_hint">Nomor telepon, nama pengguna, atau email</string>
+    <string name="password_hint">Kata Sandi</string>
+    <string name="forgot_password">Lupa kata sandi?</string>
+    <string name="login_fb">Masuk dengan Bridestory</string>
+    <string name="no_account">Belum punya akun?</string>
+    <string name="username_error">Username cannot be empty</string>
+    <string name="password_error">Password cannot be empty</string>
+    <string name="register_telepon">Anda mungkin menerima pemberitahuan SMS dari Instagram dan dapat memilih berhenti menerimanya kapan saja.</string>
+</resources>

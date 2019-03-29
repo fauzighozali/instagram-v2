@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".register.fragment.EmailFragment">
+
+    <LinearLayout
+        android:id="@+id/linear_layout_one"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/border_login"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ID + 62"
+            android:textColor="@color/blue_button_login"
+            android:layout_marginLeft="20dp"/>
+        <View
+            android:layout_width="1dp"
+            android:layout_height="wrap_content"
+            android:background="#aaa"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"/>
+        <EditText
+            android:id="@+id/edit_text_telepon"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:hint="Nomor Telepon"
+            android:textSize="12sp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:textCursorDrawable="@drawable/custom_edit_text_cursor"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Selanjutnya"
+        android:enabled="false"
+        android:textAllCaps="false"
+        android:textColor="#eaf3f2"
+        android:background="@drawable/border_button_login_disable"
+        android:layout_below="@id/linear_layout_one"/>
+
+    <TextView
+        android:id="@+id/text_view_telepon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/register_telepon"
+        android:layout_below="@id/button_next"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textSize="12sp"
+        android:textAlignment="center"/>
+</RelativeLayout>

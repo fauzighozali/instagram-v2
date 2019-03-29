@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".register.fragment.TeleponeFragment">
+
+    <EditText
+        android:id="@+id/edit_text_email"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:hint="Alamat Email"
+        android:textSize="12sp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginTop="15dp"
+        android:paddingLeft="20dp"
+        android:background="@drawable/border_login"
+        android:textCursorDrawable="@drawable/custom_edit_text_cursor"/>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text="Selanjutnya"
+        android:enabled="false"
+        android:textAllCaps="false"
+        android:textColor="#eaf3f2"
+        android:background="@drawable/border_button_login_disable"
+        android:layout_below="@id/edit_text_email"/>
+
+</RelativeLayout>
