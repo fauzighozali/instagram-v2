@@ -35,6 +35,7 @@ public class RegisterActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(simpleViewPager);
 
         // ********** Init git for this project instagram **********
+        // ********** Init git for this project instagram2 **********
 
     }
 }
