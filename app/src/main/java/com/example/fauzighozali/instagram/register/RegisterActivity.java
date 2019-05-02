@@ -31,5 +31,7 @@ public class RegisterActivity extends AppCompatActivity {
         pagerAdapter = new PagerAdapter(getSupportFragmentManager());
         simpleViewPager.setAdapter(pagerAdapter);
         tabLayout.setupWithViewPager(simpleViewPager);
+
+        // CHECK GIT
     }
 }
