@@ -33,5 +33,6 @@ public class RegisterActivity extends AppCompatActivity {
         tabLayout.setupWithViewPager(simpleViewPager);
 
         // CHECK GIT
+        //TEST TEST
     }
 }
