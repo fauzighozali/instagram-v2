@@ -28,11 +28,13 @@ public class RegisterActivity extends AppCompatActivity {
         simpleViewPager = findViewById(R.id.simpleViewPager);
         tabLayout = findViewById(R.id.simpleTabLayout);
 
+        // ********** Init git for this project **********
+
         pagerAdapter = new PagerAdapter(getSupportFragmentManager());
         simpleViewPager.setAdapter(pagerAdapter);
         tabLayout.setupWithViewPager(simpleViewPager);
 
-        // CHECK GIT
-        //TEST TEST
+        // ********** Init git for this project **********
+
     }
 }
